@@ -11,4 +11,8 @@
   <p>
     <button class="btn btn-primary">Fund this Project!</button>
   </p>
+  <div>{{#each post.comments as |comment|}}
+      <div>{{comment.title}}</div>
+    {{/each}}</div>
+  {{! Add form to add comment -- don't show comments on homepage }}
 </div>
