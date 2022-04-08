@@ -420,15 +420,15 @@ button {
   margin: 0;
 }
 
-a {
+/* a {
   color: #1b89bc;
   text-decoration: none;
-}
+} */
 
-a:hover {
+/* a:hover {
   color: #065b83;
   text-decoration: underline;
-}
+} */
 
 /* HEIGHT / WIDTH UTILS */
 .w-100 {
@@ -970,7 +970,7 @@ a:hover {
   display: flex !important;
 }
 
-.btn {
+/* .btn {
   text-align: center;
   display: inline-block;
   padding: 0.5rem 1.2rem;
@@ -983,11 +983,11 @@ a:hover {
   color: #1a1a1a;
   background-color: #aeaeae;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-}
+} */
 
-.btn:hover {
+/* .btn:hover {
   background-color: #cecece;
-}
+} */
 
 .btn.btn-squared {
   border-radius: 0;
@@ -1009,14 +1009,14 @@ a:hover {
   text-align: center;
 }
 
-.btn.btn-primary {
+/* .btn.btn-primary {
   background-color: #2d3e50;
   color: #d9e9e8;
-}
+} */
 
-.btn.btn-primary:hover {
+/* .btn.btn-primary:hover {
   background-color: #57779a;
-}
+} */
 
 .btn.btn-danger {
   background-color: #e64c66;

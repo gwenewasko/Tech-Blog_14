@@ -1,5 +1,55 @@
-header, .project:not(:last-child) {
+.underline {
+  text-underline-offset: 6px;
+  transition: ease-in 0.1s;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.btn-style {
+  background-color: none;
+  border: solid;
+  border-width: 1px;
+  border-color: orange;
+  color: #ffc14d;
+}
+
+header {
   border-bottom: 1px solid #ccc;
+  background-color: #ffc14d;
+  padding: 15px;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1 rem;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1 rem;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 0.25 rem;
+  font-size: 16px;
+}
+
+nav {
+  align-items: center;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: grey;
 }
 
 .no-button {
@@ -12,13 +62,48 @@ header, .project:not(:last-child) {
   font-size: 100%;
 }
 
-.no-button:hover {
+/* .no-button:hover {
   color: #065b83;
   text-decoration: underline;
+} */
+
+.c-grey {
+  color: rgb(133, 133, 133);
+}
+
+.c-gold {
+  color: rgb(190, 124, 0);
+}
+
+.c-white {
+  color: white;
 }
 
 .dollar-amount {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+
+a:hover {
+  font-weight: 700;
+  font-style: bold;
+  color: rgb(237, 170, 0);
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 16px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+}
+
+.btn:hover {
+  background-color: #fff2c3;
+  transition: ease-in 0.1s;
+  font-weight: bold;
+  color: rgb(237, 170, 0);
 }
