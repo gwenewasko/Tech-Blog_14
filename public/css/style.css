@@ -7,12 +7,28 @@
   text-decoration: none;
 }
 
+.bcg-grey {
+  background-color: rgb(231, 231, 231);
+  padding: 8px;
+  padding-top: 10px;
+  border-radius: 20px;
+}
+
 .btn-style {
   background-color: none;
   border: solid;
   border-width: 1px;
   border-color: orange;
   color: #ffc14d;
+}
+
+.btn-delete {
+  background-color: none;
+  border: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  border-color: rgb(216, 51, 10);
+  color: rgb(216, 51, 10);
 }
 
 header {
@@ -42,6 +58,14 @@ h3 {
   font-size: 16px;
 }
 
+h4 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1 rem;
+  text-decoration: none;
+  color: rgb(133, 133, 133);
+}
+
 nav {
   align-items: center;
 }
@@ -52,7 +76,11 @@ p {
   color: grey;
 }
 
-.no-button {
+.space-between {
+  justify-content: space-between;
+}
+
+/* .no-button {
   background: none;
   border: none;
   padding: 0;
@@ -60,7 +88,7 @@ p {
   color: #1b89bc;
   text-decoration: none;
   font-size: 100%;
-}
+} */
 
 /* .no-button:hover {
   color: #065b83;
@@ -106,4 +134,12 @@ a:hover {
   transition: ease-in 0.1s;
   font-weight: bold;
   color: rgb(237, 170, 0);
+}
+
+.btn-delete:hover {
+  background-color: rgb(255, 207, 195);
+  color: white;
+  transition: ease-in 0.1s;
+  font-weight: bold;
+  color: rgb(216, 51, 10);
 }
